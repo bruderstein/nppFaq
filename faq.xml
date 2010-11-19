@@ -1,0 +1,163 @@
+﻿<faq>
+	<section name="Auto Updates">
+		<question id="updatesgray">
+			<q>
+				Automatic updates are grayed out for me, how come?
+			</q>
+			<a>
+				Automatic updates in 5.4 through to at least 5.8 have been disabled in Vista / Windows 7, as they require
+				administrative privileges.  Hopefully a fix will appear soon, to start a UAC prompt on these OSes if the user has
+				admin privileges.
+			</a>
+		</question>
+		
+		<question id="updatesdelay">
+			<q>
+				I see from the website there's a new version, but I haven't got a notification to update yet. 
+				Even if I click "Update Notepad++" it doesn't update, what's going on?
+			</q>
+			<a>
+				 The file that says what version is "current", lies on the website, and is manually updated.  
+				 This update is done, when the release is considered stable enough - that can take any amount of time, 
+				 depending on how stable the first release in a line is.  
+				 There was a change in the gup.exe around the time 5.4 due to a change in the way SF downloads works, 
+				 so versions prior to that will not auto-update.
+			</a>
+		</question>
+		
+	
+	</section>
+	
+	<section name="Portability">
+		<question id="linux">
+			<q>
+				I really like Notepad++, but I use Linux/Mac OS X/another OS - have you any plans to port it?
+			</q>
+			<a>
+				
+			</a>
+		</question>
+	</section>
+	
+	<section name="Editing">
+		<question id="marklines">
+			<q>
+				I want to extract all the lines that contain a certain string (or regular expression), how do i do that?
+			</q>
+			<a>
+				
+			</a>
+		</question>
+	</section>
+	
+	
+	<section name="Syntax Highlighting">
+		<question id="syntax">
+			<q>
+				I noticed there's no option for language Foo/Bar/WhizBang.  Any plans on adding it?
+			</q>
+			<a>
+				Scintilla, externals lexers, UDLs
+			</a>
+		</question>
+		<question id="extendinglang">
+			<q>
+				I want to make some modifications to the way XX language is highlighted, how can I change it?
+			</q>
+			<a>
+				Keywords, scintilla lexers, recompiling (wiki link)
+			</a>
+		</question>
+	</section>
+	
+	<section name="User Defined Languages">
+		<question id="udl">
+			<q>
+				Folding issue
+			</q>
+			<a>
+				
+			</a>
+		</question>
+	</section>
+	
+	<section name="Plugins">
+		<question id="plugins">
+			<q>
+				Where can I find plugins for Notepad++?
+			</q>
+			<a>
+				TODO: Plugin Manager, Plugin Central
+			</a>
+		</question>
+	</section>
+	
+	<section name="Problems and Errors">
+		<question id="langsxml">
+			<q>
+				I get a message about Langs.xml could not be loaded at startup, what's wrong?
+			</q>
+			<a>
+				
+			</a>
+		</question>
+		
+		<question id="crash">
+			<q>
+				Notepad++ just crashed on me, can I get my documents back?
+			</q>
+			<a>
+				
+			</a>
+		</question>
+		
+		<question id="bugs">
+			<q>
+				I think I've found a bug in Notepad++, what should I do?
+			</q>
+			<a>
+				Plugins, reporting, bug tracker
+			</a>
+		</question>
+	</section>
+	
+	<section name="Configuration">
+		<question id="config">
+			<q>
+				Where are Notepad++ configuration files kept?
+			</q>
+			<a>
+				
+			</a>
+		</question>
+		
+	</section>
+	
+	<section name="Help and Suggestions">
+		<question id="help">
+			<q>
+				I want to do something in Notepad++ that I'm sure should be possible, where's the best place to ask?
+			</q>
+			<a>
+				Search the wiki (TODO: link).   If not, the Help forum.  TODO: Link
+			</a>
+		</question>
+		<question id="ideas">
+			<q>
+				I've got a suggestion for a feature / improvement.  Where should I suggest it?
+			</q>
+			<a>
+				TODO: Link for Idea Torrent.
+			</a>
+		</question>
+
+		<question id="faq">
+			<q>
+				Someone's asked a question on a forum that's answered in this FAQ, should I reprimand them?
+			</q>
+			<a>
+				No. Just respond with a link to the FAQ entry that answers the question.  That way when people search
+				the forums, or Google, they get a link to the answer.
+			</a>
+		</question>
+</faq>
